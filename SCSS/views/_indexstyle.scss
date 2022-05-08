@@ -1,0 +1,62 @@
+@import "../utilities/variables";
+
+#principalIndexBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/juan-gatti-ciencias-naturales-9-800x1145.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    #mainLogIn {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+
+        #alertSesionFailed {
+            color: red;
+        }
+
+        ;
+
+        #divLogInForm {
+            display: flex;
+            width: 70vw;
+            flex-direction: column;
+            align-items: center;
+            background-color: $colorForms;
+            padding: 2px 19px;
+            shape-margin: 3px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 10px;
+
+            .formPartSesion {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                #labelFormLogIn {
+                    font-weight: 300;
+
+                }
+
+                #iniciarSesionBtn {
+                    border-radius: 4px;
+                    background-color: $colorMain;
+                    padding: 4px;
+                    margin-top: 5px;
+                }
+
+
+            }
+
+
+
+        }
+
+
+    }
+}

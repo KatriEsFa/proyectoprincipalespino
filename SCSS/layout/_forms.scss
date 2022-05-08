@@ -1,0 +1,71 @@
+@import "../utilities/variables";
+
+// Estilos de Form de creación de nuevo Usuario
+#bodyCreateUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+
+    #mainCreateUser {
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        #createUserDivForm {
+            display: flex;
+            flex-direction: column;
+            background-color: $colorForms;
+            border-radius: 4px;
+            height: 40vh;
+            max-height: 100%;
+
+            .createUserElement {
+                height: 40px;
+                margin: 5px 5px 5px 5px;
+            }
+
+
+            #formCreateUser {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: space-around;
+
+                #divNameNewUser {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                #newUserMailDiv {
+                    max-width: 100%;
+                    display: flex;
+
+                    #newUserMail {
+                        width: 100%;
+                    }
+                }
+
+                #newUserPassDiv {
+                    display: flex;
+
+                    #newUserPass {
+                        width: 100%
+                    }
+                }
+
+                #newUserSpecDiv {
+                    display: flex;
+
+                    #newUserSpec {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

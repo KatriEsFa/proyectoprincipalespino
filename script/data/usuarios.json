@@ -1,0 +1,13 @@
+[
+    {
+        "userName": "AlejandraRossi",
+        "id": 1,
+        "nombre": "Alejandra",
+        "apellido": "Rossi",
+        "email": "arossi@safaaguada.edu.uy",
+        "password": "123456",
+        "especialidad": "Biología",
+        "prestamosActuales": [],
+        "prestamosHistorico": []
+    }
+]

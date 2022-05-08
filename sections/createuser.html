@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Crear Usuario</title>
+</head>
+
+<body id="bodyCreateUser">
+    <main id="mainCreateUser">
+        <div id="createUserDivForm">
+            <h1>Formulario de Registro de Usuario</h1>
+            <h2 id="alertUserCreation"></h2>
+            <form id="formCreateUser">
+                <div id="divNameNewUser">
+                    <input type="text" id="userName" class="createUserElement" placeholder="Elija su nombre de Usuario">
+                </div>
+                <div id="completeNameNewUserDiv">
+                    <input type="text" class="createUserElement" placeholder="Nombre" id="newFirstName">
+                    <input type="text" class="createUserElement" placeholder="Apellido" id="newLastName">
+                </div>
+
+                <div id="newUserMailDiv">
+                    <input type="email" class="createUserElement" placeholder="Correo" id="newUserMail">
+                </div>
+                <div id="newUserPassDiv">
+                    <input type="password" class="createUserElement" placeholder="Contraseña" id="newUserPass">
+                </div>
+                <div id="newUserSpecDiv">
+                    <select required id="newUserSpec" class="createUserElement">
+                        <option disabled selected value="">Elija aquí su especialidad</option>
+                        <option value="Biología">Biología</option>
+                        <option value="Física">Física</option>
+                        <option value="Química">Química</option>
+                    </select>
+                </div>
+                <button id="btnFormNewUser" type="reset" class="createUserElement"> Registrarse </button>
+            </form>
+
+        </div>
+
+    </main>
+    <script src="../script/components/createuser.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

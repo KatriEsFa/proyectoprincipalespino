@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="userName">Cambie aquí su nombre</label>
+                <input type="text" id="changedUserName">
+            </div>
+            <div id="">
+                <input type="text" placeholder="Nombre" id="changedFirstName">
+                <input type="text" placeholder="Apellido" id="changedLastName">
+            </div>
+
+            <div>
+                <input type="email" placeholder="Correo" id="changedUserMail">
+            </div>
+            <div>
+                <input type="password" placeholder="Contraseña" id="changedUserPass">
+            </div>
+            <div>
+                <select required id="changedUserSpec">
+                    <option disabled selected value="">Elija aquí su especialidad</option>
+                    <option value="Biología">Biología</option>
+                    <option value="Física">Física</option>
+                    <option value="Química">Química</option>
+                </select>
+            </div>
+            <button id="btnEditUser" type="reset"> Registrarse </button>
+        </form>
+        <div id="alertDivInvalidChange">
+            <h3 id="alertTextInvChange"></h3>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+
+    <script src="/script/components/modifyuser.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

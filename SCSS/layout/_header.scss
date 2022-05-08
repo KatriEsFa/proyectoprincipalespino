@@ -1,0 +1,50 @@
+@import "../utilities/variables";
+//Header a partir del userIndex
+
+#headerUserIndex {
+    max-height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: $colorMain;
+    position: fixed;
+    font-size: 16px;
+
+
+    #iconoMenuInicio {
+        max-height: 60px;
+        //cursor: pointer;//esto iría si fuera para desktop
+
+
+        #pagIcon {
+            max-height: 60px;
+        }
+    }
+
+    #navBar {
+        max-height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .navLinksUl {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .navListItem {
+                color: black;
+                font-weight: 500;
+            }
+
+        }
+
+        #divTinyUser {
+            max-height: 100%;
+            margin-right: 5px;
+        }
+
+    }
+}
